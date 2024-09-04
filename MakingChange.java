@@ -1,3 +1,4 @@
+/* DOES NOT WORK Throws a NullPointerException
 import java.awt.*;
 import javax.swing.*;
 
@@ -9,10 +10,11 @@ public class MakingChange
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         RegisterPanel registerPanel = new RegisterPanel();
-        frame.add(registerPanel);
 
+        frame.add(registerPanel);
         frame.pack();
         frame.setVisible(true);
     }
 
 }
+*/
