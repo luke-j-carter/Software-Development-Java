@@ -5,17 +5,17 @@ public class Register
 {
     //I created an array to initialize the denominations
     public static final Denomination[] Array =
-            {
-            new Denomination("Hundred-Dollar Note", 100.0, "bill", "hundred.png"),
-            new Denomination("Fifty-Dollar Note", 50.0, "bill", "hundred.png"),
-            new Denomination("Twenty-Dollar Note", 20.0, "bill", "hundred.png"),
-            new Denomination("Ten-Dollar Note", 10.0, "bill", "hundred.png"),
-            new Denomination("Five-Dollar Note", 5.0, "bill", "hundred.png"),
-            new Denomination("One-Dollar Note", 1.0, "bill", "hundred.png"),
-            new Denomination("Quarter", 0.25, "coin", "hundred.png"),
-            new Denomination("Dime", 0.10, "coin", "hundred.png"),
-            new Denomination("Nickel", 0.05, "coin", "hundred.png"),
-            new Denomination("Penny", 0.01, "coin", "hundred.png"),
+    {
+        new Denomination("Hundred-Dollar Note", 100.0, "bill", "images>hundred_note.png"),
+        new Denomination("Fifty-Dollar Note", 50.0, "bill", "images>fifty_note.png"),
+        new Denomination("Twenty-Dollar Note", 20.0, "bill", "images>twenty_note.png"),
+        new Denomination("Ten-Dollar Note", 10.0, "bill", "images>ten_note.png"),
+        new Denomination("Five-Dollar Note", 5.0, "bill", "images>five_note.png"),
+        new Denomination("One-Dollar Note", 1.0, "bill", "images>one_note.png"),
+        new Denomination("Quarter", 0.25, "coin", "images>quarter.png"),
+        new Denomination("Dime", 0.10, "coin", "images>dimes.png"),
+        new Denomination("Nickel", 0.05, "coin", "images>nickel.png"),
+        new Denomination("Penny", 0.01, "coin", "images>penny.png"),
     };
 
     //This method determines how many of each denomination are required to make up the total
